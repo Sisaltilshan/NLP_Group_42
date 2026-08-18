@@ -10,7 +10,7 @@ A complete NLP pipeline that classifies emails as **Spam** or **Ham** (legitimat
 
 | Member | Student ID | Models |
 |---|---|---|
-| Sisal Thilshan | Cit-24-01-0374 | Naive Bayes (ML) + LSTM (DL) |
+| Sisal Tilshan | Cit-24-01-0374 | Naive Bayes (ML) + LSTM (DL) |
 | Kavindu Thidakshana | Cit-24-01-0589 | SVM (ML) + CNN (DL) |
 | Lasitha Weerasooriya | Cit-24-01-0528 | XGBoost (ML) + DistilBERT (DL) |
 
