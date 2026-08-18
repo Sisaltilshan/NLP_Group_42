@@ -35,7 +35,7 @@ def clean_text(t):
 # the app runs -- after that it's instant, Streamlit remembers it.
 @st.cache_resource
 def train_model():
-    df = pd.read_csv("spam_dataset.csv")
+    df = pd.read_csv("../data/spam_dataset.csv")
     df['clean'] = df['text'].apply(clean_text)
 
     vectorizer = TfidfVectorizer(max_features=3000)
