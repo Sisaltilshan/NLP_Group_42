@@ -10,7 +10,7 @@ A complete NLP pipeline that classifies emails as **Spam** or **Ham** (legitimat
 
 | Member | Student ID | Models |
 |---|---|---|
-| Sisal Tilshan | Cit-24-01-0374 | Naive Bayes (ML) + LSTM (DL) |
+| Sisal Thilshan | Cit-24-01-0374 | Naive Bayes (ML) + LSTM (DL) |
 | Kavindu Thidakshana | Cit-24-01-0589 | SVM (ML) + CNN (DL) |
 | Lasitha Weerasooriya | Cit-24-01-0528 | XGBoost (ML) + DistilBERT (DL) |
 
@@ -59,11 +59,11 @@ All six models were evaluated on the same held-out test split using Accuracy and
 ```
 NLP_Group_42/
 ├── data/              # Dataset (spam_dataset.csv)
-├── notebooks/         # One notebook per member's models
-├── models/            # Saved model artifacts
+├── Notebook/           # One notebook per member's models
+├── models/            # Saved model artifacts (vectorizer.pkl, etc.)
 ├── src/                 # Final application source (app.py)
 ├── reports/            # Final report
-├── screenshots/     # Evaluation & evidence screenshots
+├── Screenshots/       # Evaluation & evidence screenshots
 ├── requirements.txt
 └── README.md
 ```
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 ## ▶️ How to Run
 
-**Model notebooks:** open any notebook in `notebooks/` in Google Colab or Jupyter to view preprocessing, training, and evaluation for that member's models.
+**Model notebooks:** open any notebook in `Notebook/` in Google Colab or Jupyter to view preprocessing, training, and evaluation for that member's models.
 
 **Final application:**
 
@@ -92,6 +92,8 @@ streamlit run app.py
 ```
 
 Paste any email text into the interface and click **Analyze** to get an instant Spam / Ham classification.
+
+*(If `streamlit` isn't recognized as a command, run `python -m streamlit run app.py` instead.)*
 
 ---
 
